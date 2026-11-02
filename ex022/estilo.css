@@ -63,3 +63,21 @@ div#r3 {
 .fundo005 {
     background-image: url(imagens/wallpaper003.jpg);
 }
+
+.fundo006 {
+    background-color: black;
+    background-image: url(imagens/carro.jpg);
+    background-size: cover;
+    height: 86vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+main {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid darkred;
+    border-radius: 20px;
+}
