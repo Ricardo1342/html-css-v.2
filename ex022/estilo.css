@@ -1,5 +1,65 @@
 @charset "UTF-8";
 
 div.quadrado {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+div#q1 {
+    background-color: skyblue;
+}
+
+div#q2 {
+    background-image: linear-gradient(to
+    bottom,yellow, red);
+}
+
+div#q3 {
+    background-image: url('imagens/pattern003.png')
+}
+.fundo001 {
+    background-image: url(imagens/wallpaper002.jpg);
+
+}
+.fundo002 {
+    background-image: url(imagens/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fundo003 .bloco {
+    height: 200px;
     border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(imagens/wallpaper003.jpg);
+}
+.fundo003 .bloco {
+    background-image: none;
+}
+
+div#r1 {
+    background-position: left top;
+}
+
+div#r2 {
+    background-position: left center;
+}
+
+div#r3 {
+    background-position: right bottom;
+}
+ 
+.fundo004 {
+    background-image: url(imagens/java.webp);
+    background-size: 100px;
+}
+
+.fundo005 {
+    background-image: url(imagens/wallpaper003.jpg);
 }
