@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: serif;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 8px;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+
+tr.linha1 {
+    background-color: chartreuse;
+}
+
+tr.linha2 {
+    background-color: chocolate;
+}
+
+tr.linha3 {
+    background-color: cyan;
+}
+
+tr.linha4 {
+    background-color: gold;
+}
