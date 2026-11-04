@@ -13,21 +13,4 @@ td {
 table {
     width: 400px;
     border-collapse: collapse;
-    border: 2px solid red;
-}
-
-tr.linha1 {
-    background-color: chartreuse;
-}
-
-tr.linha2 {
-    background-color: chocolate;
-}
-
-tr.linha3 {
-    background-color: cyan;
-}
-
-tr.linha4 {
-    background-color: gold;
 }
